@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Header with banner, icons and nav bar*/
+header {
+  color: white;
+  display: flex;
+  height: 38rem;
+  background-image: url("../assests/banner_img.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  /*Drop down menu for female section*/
+  /*end dropdown*/
+  /*end hover*/
+  /*Icons for navbar*/
+}
+header h1 {
+  font-family: "Anton";
+  letter-spacing: 0.15rem;
+  flex: 1;
+  padding: 3% 0 0 5%;
+}
+header nav {
+  font-family: "Anton";
+  text-align: center;
+  padding-top: 6%;
+  flex: 1;
+}
+header .link-list {
+  display: inline;
+  padding-left: 5%;
+}
+header .link-list a {
+  text-decoration: none;
+  color: white;
+}
+header .dropdown {
+  display: none;
+}
+header .hover-link:hover .dropdown {
+  position: absolute;
+  background-color: white;
+  width: 85%;
+  margin: 0 0 0 -32%;
+  height: 19rem;
+  z-index: 2;
+  padding: 3% 0 0 5%;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+header .hover-link:hover .dropdown .dropdown-link-list {
+  margin-bottom: 0.8rem;
+}
+header .hover-link:hover .dropdown .list-section {
+  flex: 1;
+}
+header .hover-link:hover .dropdown .dropdown-link-list a {
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+  font-size: 0.7rem;
+}
+header .hover-link:hover .dropdown .dropdown-link-list a:hover {
+  color: hsl(23deg, 100%, 50%);
+}
+header .hover-link:hover .dropdown strong {
+  font-size: 1.5rem;
+  color: black;
+}
+header .dropdown:hover {
+  display: flex;
+}
+header .icons {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 5%;
+  flex: 1;
+}
+header .icons i {
+  padding-left: 5%;
+}
+
+/*End header*/
+/*Call to action with shop button*/
+.CTA {
+  position: absolute;
+  margin: -40% 0 0 60%;
+  color: white;
+}
+.CTA .cta-1 {
+  font-size: 2rem;
+  font-family: "Nothing you could do";
+}
+.CTA .cta-2 {
+  font-size: 1.5rem;
+  float: right;
+  font-family: "Segoe UI";
+}
+.CTA .cta-3 {
+  float: right;
+  font-size: 2rem;
+  font-family: "Pacifico";
+}
+.CTA #shop-btn {
+  float: right;
+  padding: 3% 15% 3% 15%;
+  border: none;
+  border-radius: 5%;
+  color: white;
+  background-color: hsl(23deg, 100%, 50%);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer {
+  background-color: rgb(22, 1, 1);
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  /*End Wrapper*/
+  /*End lists*/
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 0.7rem;
+}
+footer .wrapper {
+  display: flex;
+  width: 100%;
+}
+footer .lists {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  /*eND FOOTER LISTS*/
+}
+footer .lists .footer-list {
+  flex: 0.4;
+}
+footer .lists .footer-list ul li {
+  display: block;
+  margin-bottom: 8%;
+}
+footer .lists .footer-list ul li strong {
+  text-decoration: underline;
+  font-size: 0.8rem;
+}
+footer .sub-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
+footer .sub-wrapper .input-container {
+  flex: 1;
+}
+footer .sub-wrapper #email {
+  padding: 3%;
+  width: 90%;
+}
+footer .sub-wrapper .note {
+  font-size: 0.7rem;
+}
+footer .sub-wrapper .socials {
+  flex: 2;
+}
+footer .sub-wrapper .socials .follow {
+  font-size: 1rem;
+}
+footer .sub-wrapper .socials .social-links {
+  display: flex;
+  margin-top: 5%;
+}
+footer .sub-wrapper .socials .social-links i {
+  flex: 0.14;
+  font-size: 1.5rem;
+}
+footer .payment {
+  margin: 2% auto;
+}
+footer .copywrite {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
