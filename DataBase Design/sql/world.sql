@@ -49,3 +49,21 @@ from world
 SELECT continent 
 from world
 where gdp > 3712000000
+
+
+
+
+
+/*JOINS*/
+select * from table_name as /*alias(name used to describe, example, a,b,c..)*/ inner join
+fooat as /*alias*/ on /*alias*/.variable = /*alias*/.variable;
+/*REAL EXAMEPLE
+select user information from the cricket and football table, for persons that are in
+both tables/sports
+*/
+select * from cricket as c inner join 
+football as f on c.name = f.name;
+
+/*ALTERNATIVE*/
+select c.name, f.name 
+from cricket as c inner join football as f on c.name = f.name;
