@@ -33,5 +33,7 @@ public class AllowanceForLunch {
    	if(total_spent > max){
    		System.out.println("Weekly Allowance Exceeded!");
    	}
+
+	input.close();
 }//end main
 }//end class

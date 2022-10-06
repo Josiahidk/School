@@ -43,5 +43,7 @@ public class TestTicketObject{
         }
         //change cost
         tktobject[1].setCost(4500);
+
+        input.close();
     }
 }
