@@ -13,6 +13,9 @@ public class passwordValidator {
         String password2 = input.nextLine();
 
         getPassword(password, password2, upperCase);
+
+        input.close();
+        
     }// end main
 
     // function to validate password
