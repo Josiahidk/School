@@ -1,6 +1,5 @@
 package Inheritance_an_Abstract_Classes.Employee;
 
-
 public abstract class Employee 
 {
    protected String firstName;
@@ -8,9 +7,7 @@ public abstract class Employee
    protected String socialSecurityNumber;
 
    // three-argument constructor
-public Employee( 
-               String first, String last, 
-               String ssn )
+public Employee(String first, String last,String ssn )
    {
       firstName = first;
       lastName = last;
@@ -18,8 +15,7 @@ public Employee(
    } // end three-argument Employee constructor
 
    // set first name
-   public void setFirstName( String first )
-   {
+   public void setFirstName( String first ) {
       firstName = first;
    } // end method setFirstName
 
@@ -30,8 +26,7 @@ public Employee(
    } // end method getFirstName
 
    // set last name
-   public void setLastName( String last )
-   {
+   public void setLastName( String last ) {
       lastName = last;
    } // end method setLastName
 
@@ -54,9 +49,8 @@ public Employee(
    } // end method getSocialSecurityNumber
 
    // return String representation of Employee object
-   public String toString()
-   {
-      return getFirstName() + " " + getLastName() + " " +
+   public String toString(){
+      return "Name: " + getFirstName() + " " + getLastName() + " " +
          "\nSocial Security Number: " 
                + getSocialSecurityNumber();
    } // end method toString
