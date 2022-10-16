@@ -1,4 +1,4 @@
-package GeoFigure;
+package Inheritance_an_Abstract_Classes.GeoFigure;
 
 public class TestGeoFigure {
    public static void main(String[] args) {
@@ -6,8 +6,7 @@ public class TestGeoFigure {
       GeoFigure gF[] = {
                            new Triangle(10, 25),
                            new Circle(5),
-                           new Rectangle(10, 20),
-                           new Rectangle(30, 30)   
+                           new Rectangle(10, 20)
                         };
        // Compute area of each figure and add it to total.
        // Display each figure and its area.
@@ -16,9 +15,9 @@ public class TestGeoFigure {
       for (int i = 0; i < gF.length; i++) {
          double area = gF[i].computeArea();
          totalArea += area;
+
           //Calculate perimeter of each object
           //Add to total perimeter
-
             gF[i].displayMessage();
             System.out.println("Area is " + area + "\n");
          }

@@ -1,24 +1,22 @@
-package GeoFigure;
+package Inheritance_an_Abstract_Classes.GeoFigure;
+
 public class Triangle extends GeoFigure {
     // Data Fields
     protected int base;
     protected int height;
     // Methods
     // Constructor
-
-    public Triangle(int bas, int hei) {
-      base = bas;
-      height = hei;
+ 
+    public Triangle(int _base, int _height) {
+      base = _base;
+      height = _height;
     }
-      
-    public Triangle() {}
-      
     // Modifiers
-    public void setBase(int bas) {
-      base = bas;
+    public void setBase(int _base) {
+      base = _base;
     }
-    public void setHeight(int hei){
-      height = hei;
+    public void setHeight(int _height){
+      height = _height;
     }
     // Accessors:
     public int getBase() {
@@ -35,10 +33,10 @@ public class Triangle extends GeoFigure {
     }
     public double computePerimeter() {
       return height + base + 
-             Math.sqrt(height*height + base*base);
+            Math.sqrt(height*height + base*base);
     }
     public void displayMessage() {
       System.out.println("Right Triangle: base is " + base +
-             ", height is " + height);
+            ", height is " + height);
     }
   }

@@ -1,3 +1,4 @@
+package Inheritance_an_Abstract_Classes.Employee;
 
 
 //CommissionEmployee.java
@@ -27,7 +28,7 @@ public double getCommissionRate(){
 }
 
 public void setGrossSales(double sales){
-	double rossSales = sales;	
+	double grossSales = sales;	
 }
 
 public double getGrossSales(){

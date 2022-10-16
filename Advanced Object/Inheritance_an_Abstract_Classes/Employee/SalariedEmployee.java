@@ -1,3 +1,4 @@
+package Inheritance_an_Abstract_Classes.Employee;
 
 
 public class SalariedEmployee extends Employee 

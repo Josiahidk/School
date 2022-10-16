@@ -1,4 +1,4 @@
-package GeoFigure;
+package Inheritance_an_Abstract_Classes.GeoFigure;
 
 public class Circle extends GeoFigure {
     // Data Fields
@@ -6,7 +6,7 @@ public class Circle extends GeoFigure {
 
     // Methods
     // Constructors
-    public Circle() {}
+ 
     public Circle(int rad) {
         radius = rad;
     }

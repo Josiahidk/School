@@ -1,23 +1,23 @@
-package GeoFigure;
+package Inheritance_an_Abstract_Classes.GeoFigure;
 
 public class Rectangle extends GeoFigure{
      // Data Fields
-  protected int width;
-  protected int height;
-  // Methods
-  // Constructors
+      protected int width;
+      protected int height;
 
-  public Rectangle() {}
-  public Rectangle(int wid, int hei) {
-    width = wid;
-    height = hei;
+      // Methods
+      // Constructors
+     
+      public Rectangle(int _width, int _height) {
+      width = _width;
+      height = _height;
   }
   // Modifiers
-  public void setWidth(int wid) {
-    width = wid;
+  public void setWidth(int _width) {
+    width = _width;
   }
-  public void setHeight(int hei) {
-    height = hei;
+  public void setHeight(int _height) {
+    height = _height;
   }
   // Accessors:
   public int getWidth() {

@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch TestGeoFigure",
+            "request": "launch",
+            "mainClass": "Inheritance_an_Abstract_Classes.GeoFigure.TestGeoFigure",
+            "projectName": "Advanced Object_ac691a09"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
